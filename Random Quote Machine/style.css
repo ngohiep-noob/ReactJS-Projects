@@ -1,0 +1,125 @@
+:root {
+    --color1: #27ae60;
+    --color2: #ffffff;
+}
+*{
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+#main{
+    height: 100vh;
+    background-color: var(--color1);
+}
+#wraper{
+    padding: 0 25%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#quote-box{
+    text-align: center;
+    padding: 40px 50px;
+    position: relative;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: var(--color2);
+    border-radius: 5px;
+}
+#btn-link{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+i{
+    margin-right: 8px;
+    font-size: 2rem;
+    
+}
+#text > span{
+    font-size: 2rem;
+}
+#text {
+    color: var(--color1);
+}
+#author > span{
+    font-size: 1.2rem;
+}
+#author{
+    margin-top: 1rem;
+    color: var(--color1);
+}
+#new-quote{
+    width: 120px;
+    height: 40px;
+    
+}
+footer{
+    margin-top: 20px;
+    color: var(--color2);
+}
+#icon-panel > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color2);
+    background: var(--color1);
+    width: 50px;
+    height: 40px;
+    border-radius: 5%;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+}
+#icon-panel > a > i{
+    font-size: 100%;
+    margin: 0 auto;
+}
+#icon-panel{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+button {
+    border: none;
+    background: var(--color1);
+    color: var(--color2);
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+    width: 100%;
+    height: 100%;
+}
+#new-quote-btn{
+    border-radius: 5px;
+}
+button:hover{
+    color: var(--color1);
+    border: var(--color1) solid 1px;
+    background:var(--color2);
+}
+#icon-panel > a:hover{
+    color: var(--color1);
+    border: var(--color1) solid 1px;
+    background:var(--color2);
+}
+footer > a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+footer > a:hover{
+    text-decoration: none;
+    color: var(--color2);
+}
+

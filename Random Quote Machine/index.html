@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Machine📖</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<body class="container-fluid" id="main">
+    <script src="https://kit.fontawesome.com/6efa843dde.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <div id="wraper" class="container-fluid">
+        <div id="quote-box">
+            <div id="text">
+                <i class="fas fa-quote-left"></i> 
+                <span id="alt-text">       
+                </span>
+            </div>
+            <div id="author">- <span id="alt-author"> </span>
+            </div>
+            <div id="btn-link">
+                <div id="new-quote">
+                    <button type="button" id="new-quote-btn">New quote</button>
+                </div>
+                <div id="icon-panel">
+                    <a 
+                    target="_blank" id="tweet-quote"
+                    title="Tweet this quote!"
+                    >   
+                        <i class="fab fa-twitter"></i>    
+                    </a>
+                    <a  
+                    target="_blank" id="fb-quote"
+                    title="Post this quote in Facebook!"
+                    >
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>by 
+            <a href="https://codepen.io/Ngohiep"
+            target="_blank">
+                NgoHiep
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
